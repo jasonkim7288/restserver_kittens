@@ -12,5 +12,5 @@ get '/kittens' do
         kitten[:img_path] = "http://placekitten.com/#{width}/#{height}"
         array_kittens.push(kitten)
     end
-    array_kitten.to_json
+    array_kittens.to_json
 end
