@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 
-get '/kittens' do
+get '/' do
     array_kittens = []
     50.times do |i|
         width = rand(1..20) * 100
